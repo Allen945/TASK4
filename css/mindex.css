@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+html {
+    font-size: 62.5%;
+    min-width: 320px;
+}
+
+.container {
+    box-sizing: border-box;
+}
+
+.comwidth {
+    width: 100%
+}
+
+
+/*头部*/
+
+.topbar {
+    height: 50px;
+    background: #ff5a28;
+}
+
+.left {
+    background: url(../images/ydimages.png) no-repeat 1px 1px;
+    width: 32px;
+    height: 22px;
+    margin: 13px;
+}
+
+.search {
+    width: 175px;
+    height: 35px;
+    position: relative;
+    background: #fff;
+    border-radius: 5px;
+    border-bottom: 1px solid #B0B0B0;
+    margin: 8px 19px 0 0px;
+}
+
+.search-icon {
+    background: url(../images/ydimages.png) no-repeat -42px 1px;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+
+/*广告*/
+
+.banner {
+    background: url(../images/ydimages.png) no-repeat center -314px #c6e77c;
+    height: 120px;
+}
+
+
+/*导航*/
+
+
+.nav-box li {
+    width: 78px;
+    float: left;
+    padding-top: 20px;
+    margin: 0 5.5%;
+}
+
+.nav-box li a {
+    display: block;
+    height: 125px;
+    text-align: center;
+    font-size: 18px;
+    color: #666666;
+}
+
+.nav-box li a span {
+    padding-top: 90px;
+    display: block;
+}
+
+.job-search a {
+    background: url(../images/ydimages.png) no-repeat 0 -32px;
+}
+
+.work a {
+    background: url(../images/ydimages.png) no-repeat -138px -32px;
+}
+
+.job-application a {
+    background: url(../images/ydimages.png) no-repeat -276px -32px;
+}
+
+.business-invitation a {
+    background: url(../images/ydimages.png) no-repeat -415px -32px;
+}
+
+.resume a {
+    background: url(../images/ydimages.png) no-repeat 0 -157px;
+}
+
+.recruitment a {
+    background: url(../images/ydimages.png) no-repeat -138px -157px;
+}
+
+.wages a {
+    background: url(../images/ydimages.png) no-repeat -276px -157px;
+}
+
+.more a {
+    background: url(../images/ydimages.png) no-repeat -415px -157px;
+}
+/*栏目*/
+.interval{
+	height: 27px;
+	background: url(../images/ydimages.png) repeat 0 -624px;
+}
+.column-box{
+	margin-top: 15px;
+}
+.left-column{
+	float: left;
+	width: 33%;
+	text-align:center;
+}
+.right-column{
+	float: left;
+	width: 33%;
+	text-align:center;
+}
+.center-column{
+	float: left;
+	width: 33%;
+	text-align:center;
+}
+.column-box i{
+	display: block;
+	font-weight: bold;
+	font-style:normal;
+	font-size: 24px;
+}
+.column-box a span{
+
+font-size: 16px;
+padding-top: 10px;
+  display: block;
+}
+.left-column a{
+	color: #009933;
+}
+.center-column a i{
+	color:#6699cc;
+}
+.center-column a span{
+	color:#999999;
+}
+.right-column a i{
+	color:#ff6666;
+}
+.right-column a span{
+	color:#cc9966;
+}
+.left-banner{
+background: url(../images/ydimages.png) no-repeat 0 -470px;
+    width: 138px;
+height: 117px;
+margin: 0 auto;
+}
+.center-banner{
+	background: url(../images/ydimages.png) no-repeat -187px -470px;
+	margin: 0 auto;
+	width: 138px;
+height: 127px;
+}
+.right-banner{
+	background: url(../images/ydimages.png)  no-repeat -366px -470px;
+	margin: 0 auto;
+    width: 138px;
+	height: 127px;
+}

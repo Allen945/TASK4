@@ -1,0 +1,33 @@
+﻿@charset "utf-8";
+
+/* CSS Document */
+body,html{
+	height: 100%;
+}
+body{
+	  background: url(../images/boo-banner.jpg) no-repeat  center;
+	  background-size:cover;
+	  height: 100%;
+}
+.container-full{
+	position: relative;
+	height: inherit;
+}
+/*登录盒子*/
+.signin-box{
+	height: 332px;
+	width: 512px;
+	background: url(../images/background_03.png) no-repeat  center;
+border-radius: 4px;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	margin: -166px 0  0 -256px;
+	background-size:cover;
+
+}
+.form-group,.checkbox,button{
+margin: 15px 100px;
+}
+#form-box{
+	margin-top:50px;}

@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/*左边导航*/
+
+.side-nav{
+	width: 129px;
+	position: fixed;
+    top: 0;
+    left:0;
+    border: none;
+    border-radius: 0;
+    overflow-y: auto;
+     background: url(../images/boot-home-banner_01.jpg) repeat; 
+    bottom: 0;
+    overflow-x: hidden;
+}
+.side-nav li{
+	width: 129px;
+}
+.two-ico{
+	font-size: 50px;
+	margin-left: 16px;
+	color: #ff503f;
+}
+/*头像*/
+.page-wrapper{
+	padding-left: 129px;
+}
